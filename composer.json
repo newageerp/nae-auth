@@ -1,0 +1,32 @@
+{
+  "name": "nae-symfony-bundles/nae-auth",
+  "type": "symfony-bundle",
+  "description": "Symfony NAE auth Bundle",
+  "keywords": [
+    "nae",
+    "symfony",
+    "bundle"
+  ],
+  "homepage": "https://newageerp.com",
+  "license": "",
+  "authors": [
+    {
+      "name": "Arturas Jegorenkovas",
+      "email": "info@newageerp.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "NaeSymfonyBundles\\NaeAuthBundle\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "symfony/framework-bundle": "^5.0",
+    "symfony/orm-pack": "^2.0",
+    "firebase/php-jwt": "^5.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}
